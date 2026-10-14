@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Turnamen E-Sports</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Pendaftaran Turnamen E-Sports</h1>
+        <p>Registrasi tim untuk lomba game</p>
+
+        <h2>Tabel Hadiah Turnamen</h2>
+
+        <table>
+            <tr>
+                <th>Juara</th>
+                <th>Nominal Hadiah</th>
+            </tr>
+            <tr>
+                <td>Juara 1</td>
+                <td>Rp 3.000.000</td>
+            </tr>
+            <tr>
+                <td>Juara 2</td>
+                <td>Rp 2.000.000</td>
+            </tr>
+            <tr>
+                <td>Juara 3</td>
+                <td>Rp 1.000.000</td>
+            </tr>
+        </table>
+
+        <div class="form-card">
+            <h2>Daftar Tim</h2>
+
+            <form id="formDaftar">
+                <label for="nama">Nama Tim</label>
+                <input type="text" id="nama"
+                    placeholder="Masukkan nama tim" required>
+
+                <label for="anggota">Jumlah Anggota</label>
+                <input type="number" id="anggota"
+                    placeholder="Masukkan jumlah anggota"
+                    min="1" required>
+
+                <button type="submit">Daftar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
